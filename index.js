@@ -18,8 +18,8 @@ app.get('/login',(req,res)=>{
     res.send('<h1>LOGIN HERE</h1>')
 
 })
-app.get('/youtube',(req,res)=>{
-    res.send('<h2>jai ho chai</h2>')
+app.get('/github',(req,res)=>{
+    res.json('<h2>jai ho chai</h2>')
 })
 
 app.listen(process.env.PORT, () => {
